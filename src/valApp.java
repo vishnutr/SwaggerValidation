@@ -18,6 +18,7 @@ public class valApp {
 		// TODO Auto-generated method stub
 		String jsonInput = readFile("applications.json");
 
+		//Hardcoded path
 		String pathToCheck = "/apps/{app_name_or_uuid}/token";
 		String meThodtype = "GET";
 		HashMap parametersMap = new HashMap<String,String>();
