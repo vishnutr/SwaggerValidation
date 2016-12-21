@@ -20,7 +20,7 @@ public class valApp {
 
 		String pathToCheck = "/apps/{app_name_or_uuid}/token";
 		String meThodtype = "GET";
-		HashMap parametersMap = new HashMap<>();
+		HashMap parametersMap = new HashMap<String,String>();
 		parametersMap.put("grant_type", "");
 		parametersMap.put("app_name_or_uuid", "");
 
